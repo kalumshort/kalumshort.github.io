@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https//kalumshort.github.io/precache-manifest.821371977f3126d47834f4c7e21a5be4.js"
+  "https//kalumshort.github.io/kalumshort.github.io/precache-manifest.3a45a4e7427ca604e633c1db4bef5ed8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https//kalumshort.github.io/index.html", {
+workbox.routing.registerNavigationRoute("https//kalumshort.github.io/kalumshort.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
